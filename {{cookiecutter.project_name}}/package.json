@@ -1,0 +1,22 @@
+{
+  "name": "{{ cookiecutter.project_name }}",
+  "author": "{{ cookiecutter.author }}",
+  "scripts": {
+    "dev": "run-p renderer:serve main:dev",
+    "build": "run-s build:source build:electron",
+    "build:electron": "cd main && pnpm build:electron",
+    "build:source": "run-p renderer:build main:build",
+    "renderer:serve": "cd renderer && pnpm serve",
+    "renderer:build": "cd renderer && pnpm build",
+    "main:dev": "cd main && pnpm dev",
+    "main:build": "cd main && pnpm build",
+    "lint": "pnpm run -r lint",
+    "format": "pnpm run -r format"
+  },
+  "devDependencies": {
+    "esbuild-register": "^3.0.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.3.2"
+  },
+  "license": "{{ cookiecutter.license }}"
+}

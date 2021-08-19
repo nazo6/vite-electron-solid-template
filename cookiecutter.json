@@ -1,0 +1,6 @@
+{
+  "project_name": "hello-world",
+  "author": "",
+  "license": ["MIT", "BSD-3", "GNU GPL v3.0", "Apache Software License 2.0"],
+  "app_id": "com.example.sampleapp"
+}

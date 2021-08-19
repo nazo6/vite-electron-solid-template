@@ -1,0 +1,17 @@
+{
+  "appId": "{{ cookiecutter.app_id }}",
+  "files": [
+    {
+      "from": "../dist/prod",
+      "to": ".",
+      "filter": "**/*"
+    },
+    "package.json"
+  ],
+  "directories": {
+    "output": "../release"
+  },
+  "extraMetadata": {
+    "main": "main.js"
+  }
+}

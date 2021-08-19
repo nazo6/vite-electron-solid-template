@@ -1,0 +1,23 @@
+{
+  "name": "renderer",
+  "main": "index.js",
+  "scripts": {
+    "serve": "vite",
+    "build": "vite build",
+    "lint": "eslint ./src",
+    "format": "eslint --fix ./src && prettier --write ."
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.29.2",
+    "@typescript-eslint/parser": "^4.29.2",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-react": "^7.24.0",
+    "tailwindcss": "^2.2.7",
+    "typescript": "^4.3.5",
+    "vite": "^2.5.0",
+    "vite-plugin-solid": "^2.0.1"
+  },
+  "dependencies": {
+    "solid-js": "^1.1.1"
+  }
+}
