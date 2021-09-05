@@ -14,14 +14,14 @@
     ]
   },
   "devDependencies": {
-    "@types/node": "^16.6.2",
-    "electron": "^13.2.1",
+    "@types/node": "^16.7.10",
+    "electron": "^14.0.0",
     "electron-builder": "^22.11.7",
-    "electronmon": "^2.0.1",
-    "esbuild": "^0.12.21",
+    "electronmon": "^2.0.2",
+    "esbuild": "^0.12.25",
     "tree-kill": "^1.2.2"
   },
   "dependencies": {
-    "axios": "^0.21.1"
+    "axios": "^0.21.3"
   }
 }
